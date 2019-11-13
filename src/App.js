@@ -1,56 +1,35 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
-import './App.css';
+
+import Home from './components/Home';
+import Project1 from './components/Project1';
+import Project2 from './components/Project2';
+import Gallery from './components/Gallery';
+import Form from './components/Form';
+
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
 function App() {
-  const [date, setDate] = useState(null);
-  useEffect(() => {
-    async function getDate() {
-      const res = await fetch('/api/date');
-      const newDate = await res.text();
-      setDate(newDate);
-    }
-    getDate();
-  }, []);
+  
   return (
-    <main>
-      <h1>Create React App + Go API</h1>
-      <h2>
-        Deployed with{' '}
-        <a
-          href="https://zeit.co/docs"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          ZEIT Now
-        </a>
-        !
-      </h2>
-      <p>
-        <a
-          href="https://github.com/zeit/now-examples/tree/master/create-react-app-functions"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          This project
-        </a>{' '}
-        was bootstrapped with{' '}
-        <a href="https://facebook.github.io/create-react-app/">
-          Create React App
-        </a>{' '}
-        and contains three directories, <code>/public</code> for static assets,{' '}
-        <code>/src</code> for components and content, and <code>/api</code>{' '}
-        which contains a serverless <a href="https://golang.org/">Go</a>{' '}
-        function. See{' '}
-        <a href="/api/date">
-          <code>api/date</code> for the Date API with Go
-        </a>
-        .
-      </p>
-      <br />
-      <h2>The date according to Go is:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
-    </main>
+    <div className="App">
+
+<React.Fragment>
+<CssBaseline />
+<Container maxWidth="sm">
+<Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} />
+
+        <Home />
+        <Project1 />
+        <Project2 />
+        <Gallery />
+        <Form />
+
+</Container>
+</React.Fragment>
+
+    </div>
   );
 }
 

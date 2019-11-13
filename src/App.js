@@ -14,21 +14,20 @@ function App() {
   
   return (
     <div className="App">
-
-<React.Fragment>
-<CssBaseline />
-<Container maxWidth="sm">
-<Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} />
-
-        <Home />
-        <Project1 />
-        <Project2 />
-        <Gallery />
-        <Form />
-
-</Container>
-</React.Fragment>
-
+      <React.Fragment>
+        <CssBaseline />
+        <Container maxWidth="lg">
+          <Typography component={
+            <Home />,
+            <Project1 />,
+            <Project2 />,
+            <Gallery />,
+            <Form />
+            } 
+            style={{ backgroundColor: '#cfe8fc', height: '100vh' }} 
+            />
+        </Container>
+      </React.Fragment>
     </div>
   );
 }

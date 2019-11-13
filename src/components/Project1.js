@@ -3,7 +3,7 @@ import React from 'react';
 const Project1 = () => {
     return (
         <>
-            <img src="public\images\binary.jpg" alt="picture of notebook with binary code on it"/>
+            <img src="images/binary.jpg" alt="picture of notebook with binary code on it"/>
             <div>
                 <h2>Github API Traversal</h2>
                 <p>

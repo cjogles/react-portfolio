@@ -19,7 +19,7 @@ const Project2 = () => {
                     </div>
                 </div> 
             </div>
-            <img src="public\images\circuit-board.jpg" alt="picture of circuit board floating in the air"/>
+            <img src="images/circuit-board.jpg" alt="picture of circuit board floating in the air"/>
         </>
     )
 }

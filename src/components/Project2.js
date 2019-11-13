@@ -3,7 +3,8 @@ import React from 'react';
 const Project2 = () => {
     return (
         <>
-            <div>
+        <div className="card">
+            <div className="cardContent">
                 <h2>Project Title Second Best Insert Here</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -19,7 +20,12 @@ const Project2 = () => {
                     </div>
                 </div> 
             </div>
-            <img src="images/circuit-board.jpg" alt="picture of circuit board floating in the air"/>
+            <img 
+                className="cardImage" 
+                src="images/circuit-board.jpg" 
+                alt="picture of circuit board floating in the air"
+            />
+        </div>
         </>
     )
 }

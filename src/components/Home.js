@@ -14,12 +14,13 @@ const Home = () => {
                 <p>🛌 ➡ 🕺</p>
                 <p><a>View Projects</a></p>
             </div>
-            <div className="cardImage">
+            <div>
                 <a 
                     href="https://en.wikipedia.org/wiki/Ikigai" 
                     target="_blank"
                 >
                     <img 
+                        className="cardImage"
                         src="images/ikigai.jpg" 
                         alt="ikigai = a japanese word/notion for life meaning being found" 
                     />

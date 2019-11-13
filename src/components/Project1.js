@@ -3,7 +3,12 @@ import React from 'react';
 const Project1 = () => {
     return (
         <>
-            <img src="images/binary.jpg" alt="picture of notebook with binary code on it"/>
+        <div className="card">
+            <img 
+                className="cardImage" 
+                src="images/binary.jpg" 
+                alt="picture of notebook with binary code on it"
+            />
             <div>
                 <h2>Github API Traversal</h2>
                 <p>
@@ -11,7 +16,7 @@ const Project1 = () => {
                     Created social cards via vanilla javascript instead of 
                     using the React Library.
                 </p>
-                <div>
+                <div className="cardContent">
                     <button>Explore Project</button>
                     <div>
                         <a href="https://cjogles.github.io/github-usercard/" target="_blank">View Website</a>
@@ -19,6 +24,7 @@ const Project1 = () => {
                     </div>
                 </div> 
             </div>
+        </div>    
         </>
     )
 }

@@ -5,6 +5,7 @@ import Project1 from './components/Project1';
 import Project2 from './components/Project2';
 import Gallery from './components/Gallery';
 import Form from './components/Form';
+import Skills from './components/Skills';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
@@ -22,6 +23,7 @@ function App() {
             <Project1 />
             <Project2 />
             <Gallery />
+            <Skills />
             <Form />
           </Typography>
         </Container>

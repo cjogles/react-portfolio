@@ -14,7 +14,7 @@ const Home = () => {
                 <p>🛌 ➡ 🕺</p>
                 <p><a>View Projects</a></p>
             </div>
-            <div>
+            <div style={textAlign='center'}>
                 <a 
                     href="https://en.wikipedia.org/wiki/Ikigai" 
                     target="_blank"

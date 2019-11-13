@@ -19,7 +19,7 @@ const Home = () => {
                     target="_blank"
                 >
                     <img 
-                        src="public\images\ikigai.jpg" 
+                        src="C:\Users\jacks\computer-science-home\portfolio\react-portfolio\public\images\ikigai.jpg" 
                         alt="ikigai = a japanese word/notion for life meaning being found" 
                     />
                 </a>

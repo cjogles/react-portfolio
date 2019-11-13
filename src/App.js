@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css'
 
 import Home from './components/Home';
 import Project1 from './components/Project1';

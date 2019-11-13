@@ -1,3 +1,15 @@
 .App {
   display: flex;
 }
+
+.card {
+  width: 100%;
+}
+
+.cardImage {
+  width: 45%;
+}
+
+.cardContent {
+  width: 45%;
+}

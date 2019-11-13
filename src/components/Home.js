@@ -3,7 +3,8 @@ import React from 'react';
 const Home = () => {
     return (
         <>
-            <div>
+        <div className="card">
+            <div className="cardContent">
                 <h1>Jackson Ogles</h1>
                 <p> 
                     My ikigai (pronounced "aye-kee-guy") is centered 
@@ -13,7 +14,7 @@ const Home = () => {
                 <p>🛌 ➡ 🕺</p>
                 <p><a>View Projects</a></p>
             </div>
-            <div>
+            <div className="cardImage">
                 <a 
                     href="https://en.wikipedia.org/wiki/Ikigai" 
                     target="_blank"
@@ -24,6 +25,7 @@ const Home = () => {
                     />
                 </a>
             </div>
+        </div>
         </>
     )
 }

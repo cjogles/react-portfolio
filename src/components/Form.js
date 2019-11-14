@@ -1,8 +1,12 @@
 import React from 'react';
+import { Button, Form } from 'semantic-ui-react'
 
 const Form = () => {
     return (
-        <h2>Form</h2>
+        <Form loading>
+            <Form.Input label='Email' placeholder='joe@schmoe.com' />
+            <Button>Submit</Button>
+        </Form>
     )
 }
 

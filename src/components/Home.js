@@ -28,6 +28,9 @@ const Home = () => {
                     <Button variant="contained" href="#firstProject" className={classes.button}>
                         View Projects
                     </Button>
+                    <Button variant="contained" href="https://sourcerer.io/cjogles" className={classes.button}>
+                        Check Out my Stats!
+                    </Button>
                 </div>
             </div>
             <div className="imageContent">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'semantic-ui-react'
 
-const Form = () => {
+const ContactForm = () => {
     return (
         <Form loading>
             <Form.Input label='Email' placeholder='joe@schmoe.com' />
@@ -10,4 +10,4 @@ const Form = () => {
     )
 }
 
-export default Form;
+export default ContactForm;

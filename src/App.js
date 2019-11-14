@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Project1 from './components/Project1';
 import Project2 from './components/Project2';
 import Gallery from './components/Gallery';
-import Form from './components/Form';
+import ContactForm from './components/ContactForm';
 import Skills from './components/Skills';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -24,7 +24,7 @@ function App() {
             <Project2 />
             <Gallery />
             <Skills />
-            <Form />
+            <ContactForm />
           </Typography>
         </Container>
       </React.Fragment>

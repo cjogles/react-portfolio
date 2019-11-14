@@ -18,7 +18,7 @@ function App() {
       <React.Fragment>
         <CssBaseline />
         <Container maxWidth="xl">
-          <Typography component={'div'} style={{ backgroundColor: 'white', height: '100%' }}>
+          <Typography component={'div'} style={{ backgroundColor: 'whitesmoke', height: '100%' }}>
             <Home />
             <Project1 />
             <Project2 />

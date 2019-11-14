@@ -50,6 +50,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.App {
+  background-color:#808498;
+}
+
 .cardEven {
   display: flex;
   width: 100%;
@@ -59,7 +63,7 @@ html {
 .cardOdd {
   display: flex;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: #CED0DD;
 }
 
 .innerCardContent {

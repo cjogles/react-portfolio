@@ -12,12 +12,12 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
 function App() {
-  
+
   return (
     <div className="App">
       <React.Fragment>
-        <CssBaseline />
-        <Container maxWidth="xl">
+        <CssBaseline/>
+        <Container maxWidth="lg">
           <Typography component={'div'} style={{ backgroundColor: 'whitesmoke', height: '100%' }}>
             <Home />
             <Project1 />

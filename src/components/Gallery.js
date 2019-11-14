@@ -8,6 +8,7 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import IconButton from '@material-ui/core/IconButton';
 import InfoIcon from '@material-ui/icons/Info';
 import { tileData } from '../data/tileData';
+import { Link } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -53,18 +54,19 @@ export default function Gallery() {
           <ListSubheader component="div">Projects</ListSubheader>
         </GridListTile>
         {tileData.map(tile => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              subtitle={<span>by: {tile.author}</span>}
-              actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                  <InfoIcon />
-                </IconButton>
-              }
-            />
-          </GridListTile>
+            <GridListTile key={tile.img}>
+              <a href={tile.address} target="_blank">
+              <img src={tile.img} alt={tile.title} />
+              <GridListTileBar
+                title={tile.title}
+                actionIcon={
+                  <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
+                    <InfoIcon />
+                  </IconButton>
+                }
+              /></a>
+            </GridListTile>
+          
         ))}
       </GridList>
     </div>

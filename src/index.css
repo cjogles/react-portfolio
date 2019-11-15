@@ -86,26 +86,23 @@ html {
   background-color:#0091ea;
 }
 .cardEven {
-
   width: 100%;
   background-color: white;
 }
 .cardOdd {
-  
   width: 100%;
   background-color: #e1f5fe;
 }
 .cardOdd img {
   margin-left:2rem;
 }
-.cardEven img {
-  margin: 2rem;
+.cardEven .img {
+  margin:2rem;
 }
 .innerCardContent {
   padding:4rem;
 }
 .imageContent {
-  text-align: center;
   margin: auto;
 }
 .cardContent {
@@ -114,7 +111,7 @@ html {
   margin: auto;
 }
 .cardImage {
-  width: 42rem;
+  width: 40rem;
 }
 h1 {
   font-size: 4rem;

@@ -51,7 +51,7 @@ const Project2 = () => {
             </div>
             <div className="imageContent">
                 <img 
-                    className="cardImage" 
+                    className="cardImage img" 
                     src="images/car-sales.jpg" 
                     alt="screenshot of car-sales website home page"
                 />

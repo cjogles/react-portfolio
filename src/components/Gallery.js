@@ -17,25 +17,19 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'space-around',
     overflow: 'hidden',
     backgroundColor: theme.palette.background.paper,
+    fontFamily: 'Lato, sans-serif',
   },
   gridList: {
     width: 500,
     height: 450,
+    fontFamily: 'Lato, sans-serif',
   },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
+    fontFamily: 'Lato, sans-serif',
   },
-  familyH1: {
-    fontSize: '5rem',
-    fontFamily: 'Wendy One, Sans-serif',
-  }, 
-  familyH2: {
-    fontSize: '4rem',
-    fontFamily: 'Wendy One, Sans-serif',
-  },
-  familyP: {
-    fontSize: '2rem',
-    fontFamily: 'Wendy One, sans-serif',
+  rando: {
+    fontFamily: 'Lato, sans-serif',
   }
 }));
 
@@ -62,18 +56,19 @@ export default function Gallery() {
   return (
     <div className={classes.root} style={{backgroundColor:"#e1f5fe"}}>
       <GridList cellHeight={180} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div" style={{fontSize:'2rem', fontWeight:"bold"}}>Projects</ListSubheader>
+        <GridListTile className={classes.rando} key="Subheader" cols={2} style={{ height: 'auto' }}>
+          <ListSubheader className={classes.rando} component="div" style={{fontSize:'2rem', fontWeight:"bold"}}>Projects</ListSubheader>
         </GridListTile>
         {tileData.map(tile => (
-            <GridListTile key={tile.img}>
-              <a href={tile.address} target="_blank">
-              <img src={tile.img} alt={tile.title} />
+            <GridListTile className={classes.rando} key={tile.img}>
+              <a className={classes.rando} href={tile.address} target="_blank">
+              <img className={classes.rando} src={tile.img} alt={tile.title} />
               <GridListTileBar
+                className={classes.rando}
                 title={tile.title}
                 actionIcon={
                   <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                    <InfoIcon />
+                    <InfoIcon className={classes.rando}/>
                   </IconButton>
                 }
               /></a>

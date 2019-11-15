@@ -14,12 +14,12 @@ const useStyles = makeStyles(theme => ({
     fontFamily: 'Wendy One, Sans-serif',
   }, 
   familyH2: {
-    fontSize: '4rem',
+    fontSize: '3rem',
     fontFamily: 'Wendy One, Sans-serif',
   },
   familyP: {
-    fontSize: '2rem',
-    fontFamily: 'Wendy One, sans-serif',
+    fontSize: '1.5rem',
+    fontFamily: 'Lato, sans-serif',
   }
 }));
 

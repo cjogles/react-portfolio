@@ -61,7 +61,7 @@ const useStyles = makeStyles(theme => ({
   },
   familyP: {
     fontSize: '2rem',
-    fontFamily: 'Wendy One, sans-serif',
+    fontFamily: 'Lato, sans-serif',
   }
 }));
 

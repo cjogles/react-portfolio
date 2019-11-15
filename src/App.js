@@ -23,11 +23,11 @@ const useStyles = makeStyles(theme => ({
     fontFamily: 'Wendy One, Sans-serif',
   }, 
   familyH2: {
-    fontSize: '4rem',
+    fontSize: '3.5rem',
     fontFamily: 'Wendy One, Sans-serif',
   },
   familyP: {
-    fontSize: '2rem',
+    fontSize: '.5rem',
     fontWeight: 'light',
     fontFamily: 'Wendy One, sans-serif',
   }
@@ -48,7 +48,7 @@ function App() {
             <Skills />
             <br></br>
             <ContactForm />
-            <p className={classes.familyP}style={{textAlign:'center', fontSize:'1rem'}}>© Photos Unsplash and Personal Projects - Jackson Ogles</p>
+            <p className={classes.familyP}style={{textAlign:'center', fontSize:'1rem', marginTop:'2rem'}}>© Photos Unsplash and Personal Projects - Jackson Ogles</p>
           </Typography>
         </Container>
       </React.Fragment>

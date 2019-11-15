@@ -25,6 +25,18 @@ const useStyles = makeStyles(theme => ({
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
   },
+  familyH1: {
+    fontSize: '5rem',
+    fontFamily: 'Wendy One, Sans-serif',
+  }, 
+  familyH2: {
+    fontSize: '4rem',
+    fontFamily: 'Wendy One, Sans-serif',
+  },
+  familyP: {
+    fontSize: '2rem',
+    fontFamily: 'Wendy One, sans-serif',
+  }
 }));
 
 /**
@@ -48,10 +60,10 @@ export default function Gallery() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} style={{backgroundColor:"#e1f5fe"}}>
       <GridList cellHeight={180} className={classes.gridList}>
         <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div">Projects</ListSubheader>
+          <ListSubheader component="div" style={{fontSize:'2rem', fontWeight:"bold"}}>Projects</ListSubheader>
         </GridListTile>
         {tileData.map(tile => (
             <GridListTile key={tile.img}>

@@ -9,6 +9,19 @@ const useStyles = makeStyles(theme => ({
   input: {
     display: 'none',
   },
+  familyH1: {
+    fontSize: '5rem',
+    fontFamily: 'Wendy One, Sans-serif',
+    whiteSpace: 'nowrap',
+  },
+  familyH2: {
+    fontSize: '4rem',
+    fontFamily: 'Wendy One, Sans-serif',
+  },
+  familyP: {
+    fontSize: '2rem',
+    fontFamily: 'Wendy One, sans-serif',
+  }
 }));
 
 const Home = () => {
@@ -18,11 +31,11 @@ const Home = () => {
         <div className="cardEven">
             <div className="cardContent">
                 <div className="innerCardContent">
-                    <h1>Jackson Ogles</h1>
-                    <p> 
-                        My ikigai (pronounced "aye-kee-guy") is centered 
-                        in software engineering principles and using them in a practical way.
-                        You could say it's the reason I get up in the morning!
+                    <h1 className={classes.familyH1}>Jackson Ogles</h1>
+                    <p className={classes.familyP}> 
+                        My ikigai ('aye-kee-guy') is centered 
+                        in coding simple and beautiful things.
+                        I love what I do!
                     </p>
                     <p id="emoji">🛌 ➡ 🕺</p>
                     <Button variant="contained" href="#firstProject" className={classes.button}>

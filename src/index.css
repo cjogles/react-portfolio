@@ -50,59 +50,86 @@ html {
   scroll-behavior: smooth;
 }
 
-.App {
-  background-color:#808498;
+/* 1200px or bigger */
+@media only screen and (min-width: 1200px) {
+  .cardEven {
+    display:flex;
+  }
+  .cardOdd {
+    display:flex;
+  }
+  .imageContentMobile {
+    display:none;
+  }
+}
+/*1200 or smaller*/
+@media only screen and (max-width: 1200px) {
+  .cardOdd .imageContent {
+    display:none;
+  }
+}
+/*750 or smaller*/
+@media only screen and (max-width: 900px) {
+  img.cardImage {
+    width:35rem;
+  }
+}
+/*550px or smaller*/
+@media only screen and (max-width: 580px) {
+  img.cardImage {
+    width: 20rem;
+  }
 }
 
+
+.App {
+  background-color:#0091ea;
+}
 .cardEven {
-  display: flex;
+
   width: 100%;
   background-color: white;
 }
-
 .cardOdd {
-  display: flex;
+  
   width: 100%;
-  background-color: #CED0DD;
+  background-color: #e1f5fe;
 }
-
+.cardOdd img {
+  margin-left:2rem;
+}
+.cardEven img {
+  margin: 2rem;
+}
 .innerCardContent {
   padding:4rem;
 }
-
 .imageContent {
   text-align: center;
-  width:100%;
   margin: auto;
 }
-
 .cardContent {
   text-align: center;
   width: 100%;
   margin: auto;
 }
-
 .cardImage {
-  width: 48rem;
+  width: 42rem;
 }
-
 h1 {
   font-size: 4rem;
   font-family: 'Wendy One', sans-serif;
 }
-
 h2 {
   font-size: 2rem;
   font-family: 'Wendy One', sans-serif;
 }
-
 p {
   font-size: 1.4rem;
   font-family: 'Lato', sans-serif;
   margin-top: 1.4rem;
   margin-bottom: 1.4rem;
 }
-
 p#emoji {
   font-size: 5rem;
 }

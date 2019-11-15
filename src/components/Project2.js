@@ -9,6 +9,18 @@ const useStyles = makeStyles(theme => ({
   input: {
     display: 'none',
   },
+  familyH1: {
+    fontSize: '5rem',
+    fontFamily: 'Wendy One, Sans-serif',
+  }, 
+  familyH2: {
+    fontSize: '4rem',
+    fontFamily: 'Wendy One, Sans-serif',
+  },
+  familyP: {
+    fontSize: '2rem',
+    fontFamily: 'Wendy One, sans-serif',
+  }
 }));
 
 const Project2 = () => {
@@ -18,8 +30,8 @@ const Project2 = () => {
         <div className="cardEven">
             <div className="cardContent">
                 <div className="innerCardContent">
-                    <h2>Car Sales</h2>
-                    <p>
+                    <h2 className={classes.familyH2}>Car Sales</h2>
+                    <p className={classes.familyP}>
                         Created a redux state management system for a car sales website. Implemented
                         action creators, actions, reducers and redux store for pure state management. 
                         Included event handlers to modify UI and reducer logic to update car price

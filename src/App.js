@@ -1,58 +1,28 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
+import '../src/css/index.css';
 
-import Home from './components/Home';
 import Project1 from './components/Project1';
-import Project2 from './components/Project2';
-import Gallery from './components/Gallery';
-import ContactForm from './components/ContactForm';
-import Skills from './components/Skills';
 
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import { makeStyles } from '@material-ui/core/styles';
-const useStyles = makeStyles(theme => ({
-  button: {
-    margin: theme.spacing(1),
-  },
-  input: {
-    display: 'none',
-  },
-  familyH1: {
-    fontSize: '5rem',
-    fontFamily: 'Wendy One, Sans-serif',
-  }, 
-  familyH2: {
-    fontSize: '3.5rem',
-    fontFamily: 'Wendy One, Sans-serif',
-  },
-  familyP: {
-    fontSize: '.5rem',
-    fontWeight: 'light',
-    fontFamily: 'Wendy One, sans-serif',
-  }
-}));
 function App() {
-  const classes = useStyles();
   return (
-    <div className="App">
-      <React.Fragment>
-        <CssBaseline/>
-        <Container maxWidth="lg">
-          <Typography component={'div'} style={{ backgroundColor: 'whitesmoke', height: '100%' }}>
-            <Home />
-            <Project1 />
-            <Project2 />
-            <Gallery />
-            <br></br>
-            <Skills />
-            <br></br>
-            <ContactForm />
-            <p className={classes.familyP}style={{textAlign:'center', fontSize:'1rem', marginTop:'2rem'}}>© Photos Unsplash and Personal Projects - Jackson Ogles</p>
-          </Typography>
-        </Container>
-      </React.Fragment>
-    </div>
+    <>
+      <div className="home-page">
+        <div className ="title">
+          <h1>Hi! My name is Jackson and I'm a Web Developer. </h1>
+          <div className="buttons">
+            <Button variant="contained" color="primary">
+              View Github Stats
+            </Button>
+            <Button variant="contained" color="primary" href="#firstProject">
+              View Projects
+            </Button>
+          </div>
+        </div>
+        <img src='/images/hi-right.JPG'/>
+      </div>
+      <Project1/>
+    </>
   );
 }
 

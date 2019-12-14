@@ -7,33 +7,33 @@ const Project2 = () => {
       <>
         <div className="firstProject2">
           <div className="proj2Text">
-            <h2>Block Club Calendar</h2>
+            <h2>Second Chance</h2>
             <p>
-              Worked for a Detroit, MI non-profit as a junior react dev to build
-              a calendar event web platform. Assited team in creating functional components,
-              dynamic html elements rendered to the DOM via JS array methods,
-              and implemented third party libraries to create UI like a date picker and login 
-              forms.
+              Worked on a Lambda School Development Team as a Senior React Developer
+              to build a web platform where employers can view prison inmate credentials
+              for hiring purposes, and prison admin can add thier prison and post their
+              inmates for viewing. Created CRUD functionality to work with back end sqlite
+              server and database.
             </p>
             <div className="proj2Buttons">
               <div className="proj2Butt">
                 <div>
-                  <Button variant="contained" color="primary" href="https://blockclubcalendar.now.sh" target="_blank">
+                  <Button variant="contained" color="primary" href="https://second-chance.now.sh/" target="_blank">
                   View Website
                   </Button>
                 </div>
                 <div>
-                  <Button variant="contained" color="primary" href="https://github.com/Build-Week-Block-Club-Calendar/block-club-calendar-FE" target="_blank">
+                  <Button variant="contained" color="primary" href="https://github.com/Build-WeekFT-PrisonerSkills/PS-Frontend" target="_blank">
                     View Code
                   </Button>
                 </div>
               </div>
             </div>
           </div>
-          <a href="https://blockclubcalendar.now.sh" target="_blank">
+          <a href="https://second-chance.now.sh/" target="_blank">
             <img 
-            src="images/block-club.jpg" 
-            alt="screenshot of block-club calendar website home page" 
+            src="images/second-chance.jpg" 
+            alt="screenshot of second-chance prisoner website home page" 
             />
           </a>
         </div>

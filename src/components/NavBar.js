@@ -32,7 +32,7 @@ export default function NavBar() {
           <Typography variant="h6" className={classes.title}>
             Jackson's Portfolio
           </Typography>
-          <Button color="inherit">Get In Contact</Button>
+          <a href="mailto: jackson.ogles28@gmail.com" style={{color: "white", textDecoration: "none"}}><Button color="inherit">Get In Contact</Button></a>
         </Toolbar>
       </AppBar>
     </div>

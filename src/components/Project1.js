@@ -16,7 +16,7 @@ const Project1 = () => {
             <h2>Block Club Calendar</h2>
             <p>
               Worked for a Detroit, MI non-profit as a junior react dev to build
-              a calendar event web platform. Assited team in creating functional components,
+              a calendar event web platform. Assisted team in creating functional components,
               dynamic html elements rendered to the DOM via JS array methods,
               and implemented third party libraries to create UI like a date picker and login 
               forms.

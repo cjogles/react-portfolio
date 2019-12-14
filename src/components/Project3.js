@@ -6,30 +6,28 @@ const Project3 = () => {
     return (
       <>
         <div className="firstProject1">
-          <a href="https://blockclubcalendar.now.sh" target="_blank">
+          <a href="https://project-list.now.sh" target="_blank">
             <img 
-            src="images/block-club.jpg" 
+            src="images/todo.jpg" 
             alt="screenshot of block-club calendar website home page" 
             />
           </a>
           <div className="proj1Text">
-            <h2>Block Club Calendar</h2>
+            <h2>ToDo List</h2>
             <p>
-              Worked for a Detroit, MI non-profit as a junior react dev to build
-              a calendar event web platform. Assited team in creating functional components,
-              dynamic html elements rendered to the DOM via JS array methods,
-              and implemented third party libraries to create UI like a date picker and login 
-              forms.
+              Created a ToDo list App front end client via react and back end 
+              server and database via sqlite data base management system and 
+              knex and express. 
             </p>
             <div className="proj1Buttons">
               <div className="proj1Butt">
                 <div>
-                  <Button variant="contained" color="primary" href="https://blockclubcalendar.now.sh" target="_blank">
+                  <Button variant="contained" color="primary" href="https://project-list.now.sh" target="_blank">
                   View Website
                   </Button>
                 </div>
                 <div>
-                  <Button variant="contained" color="primary" href="https://github.com/Build-Week-Block-Club-Calendar/block-club-calendar-FE" target="_blank">
+                  <Button variant="contained" color="primary" href="https://github.com/cjogles/project-list" target="_blank">
                     View Code
                   </Button>
                 </div>

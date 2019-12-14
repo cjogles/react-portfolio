@@ -6,6 +6,8 @@ import NavBar from './components/NavBar';
 import Project1 from './components/Project1';
 import Project2 from './components/Project2';
 import Project3 from './components/Project3';
+import Skillz from './components/Skillz';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
             <Button variant="contained" color="primary" href="#firstProject">
               View Projects
             </Button>
+            <Button variant="contained" color="primary" href="/jack-resume.pdf" target="_blank">
+              View Resume
+            </Button>
           </div>
         </div>
         <img src='/images/hi-right.JPG'/>
@@ -28,6 +33,8 @@ function App() {
       <Project1/>
       <Project2/>
       <Project3/>
+      <Skillz/>
+      <Contact/>
     </>
   );
 }

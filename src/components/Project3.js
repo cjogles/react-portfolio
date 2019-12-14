@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
-const Project1 = () => {
+const Project3 = () => {
 
     return (
       <>
-        <div id="firstProject" className="firstProject1">
+        <div className="firstProject1">
           <a href="https://blockclubcalendar.now.sh" target="_blank">
             <img 
             src="images/block-club.jpg" 
@@ -41,4 +41,4 @@ const Project1 = () => {
     )
 }
 
-export default Project1;
+export default Project3;

@@ -1,18 +1,12 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
-const Project1 = () => {
+const Project2 = () => {
 
     return (
       <>
-        <div id="firstProject" className="firstProject1">
-          <a href="https://blockclubcalendar.now.sh" target="_blank">
-            <img 
-            src="images/block-club.jpg" 
-            alt="screenshot of block-club calendar website home page" 
-            />
-          </a>
-          <div className="proj1Text">
+        <div className="firstProject2">
+          <div className="proj2Text">
             <h2>Block Club Calendar</h2>
             <p>
               Worked for a Detroit, MI non-profit as a junior react dev to build
@@ -21,8 +15,8 @@ const Project1 = () => {
               and implemented third party libraries to create UI like a date picker and login 
               forms.
             </p>
-            <div className="proj1Buttons">
-              <div className="proj1Butt">
+            <div className="proj2Buttons">
+              <div className="proj2Butt">
                 <div>
                   <Button variant="contained" color="primary" href="https://blockclubcalendar.now.sh" target="_blank">
                   View Website
@@ -36,9 +30,15 @@ const Project1 = () => {
               </div>
             </div>
           </div>
+          <a href="https://blockclubcalendar.now.sh" target="_blank">
+            <img 
+            src="images/block-club.jpg" 
+            alt="screenshot of block-club calendar website home page" 
+            />
+          </a>
         </div>
       </>
     )
 }
 
-export default Project1;
+export default Project2;

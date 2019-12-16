@@ -129,6 +129,9 @@ table {
 html {
   scroll-behavior: smooth;
 }
+.app {
+  width: 100%;
+}
 .home-page {
   display: flex;
   justify-content: space-between;
@@ -155,10 +158,11 @@ html {
 }
 .firstProject1 {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 5rem;
 }
 .firstProject1 img {
-  width: 50rem;
+  width: 40rem;
   margin: 5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -169,6 +173,7 @@ html {
 .firstProject1 .proj1Text {
   justify-content: space-evenly;
   text-align: center;
+  width: 35%;
   margin: 5rem;
   border: 5px solid #0033cc;
   border-radius: 5px;
@@ -198,11 +203,13 @@ html {
 }
 .firstProject2 {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 5rem;
 }
 .firstProject2 .proj2Text {
   justify-content: space-evenly;
   text-align: center;
+  width: 35%;
   margin: 5rem;
   border: 5px solid #0033cc;
   border-radius: 5px;
@@ -231,7 +238,7 @@ html {
   margin: 1rem;
 }
 .firstProject2 img {
-  width: 50rem;
+  width: 40rem;
   margin: 5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;

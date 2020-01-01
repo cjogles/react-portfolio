@@ -1,24 +1,37 @@
 .home-page {
   display: flex;
-  justify-content: space-between;
   .title {
     margin: auto;
+    text-align: center;
     display:flex;
     flex-direction: column;
+    @media @extra-small {
+      width: 50%;
+      margin-top: 0rem;
+    }
     h1 {
       font-size: 3rem;
       margin-bottom: 10rem;
       margin-top:10rem;
-    }
-    .buttons {  
-      display:flex;
-      justify-content: space-around;
-      button {
-        justify-content: space-between;
+      padding: 1rem;
+      @media @extra-small {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+        margin-top:4rem;
       }
     }
   }
   img {
     font-size: 5rem;
+    @media @extra-small {
+      width: 50%;
+      height: 100%;
+      margin: auto;
+    }
+    @media @large {
+      width: 50%;
+      height: 100%;
+      margin: auto;
+    }
   }
 }

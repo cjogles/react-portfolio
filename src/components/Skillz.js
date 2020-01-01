@@ -17,7 +17,8 @@ const options = {
   filterType: 'none',
   selectableRows: "none",
   elevation: 4,
-  responsive: 'scrollMaxHeight'
+  responsive: 'scroll',
+  pagination: false
 };
 
 const Skillz = () => {

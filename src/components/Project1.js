@@ -36,6 +36,10 @@ const Project1 = () => {
               </div>
             </div>
           </div>
+          <img className="hiddenImg"
+            src="images/block-club.jpg" 
+            alt="screenshot of block-club calendar website home page" 
+            />
         </div>
       </>
     )

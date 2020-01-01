@@ -1,12 +1,33 @@
 .firstProject1 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5rem;
-  img {
-    width: 40rem;
-    margin: 5rem;
+  @media @large {
+    flex-wrap: nowrap;
+  }
+  a {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    img {
+    margin:auto;
+    width: 48%;
+    width: 30rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    @media @extra-small {
+      display: none;
+      flex-wrap: wrap;
+    }
+    @media @large {
+     width: 20rem;
+     margin: auto;
+    }
+    @media @extra-large {
+      width: 30rem;
+    }
+  }
   }
   img:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -18,10 +39,20 @@
     margin: 5rem;
     border: 5px solid #0033cc;
     border-radius: 5px;
+    @media @extra-small {
+      width: 100%;
+      margin: .5rem;
+    }
+    @media @large {
+      width: 50%;
+    }
     h2 {
       font-size: 2rem;
       margin-top: 2rem;
       margin-bottom: 2rem;
+      @media @extra-small {
+
+      }
     }
     p {
       font-size: 1.5rem;
@@ -29,17 +60,30 @@
       padding-right: 2rem;
       padding-left: 2rem;
     }
-  }
+
   .proj1Buttons {
-    display:flex;
     justify-content: space-evenly;
     .proj1Butt {
       margin: .5rem;
       justify-content: space-evenly;
       flex-wrap: wrap;
       div {
-        margin: 1rem;
+        margin: 1rem; 
       }
+    }
+  }
+}
+  .hiddenImg {
+    display: none;
+    margin-bottom: 2rem;
+    @media @extra-small {
+      display: flex;
+      margin: auto;
+      margin-top: 2rem;
+      width: 95%;
+    }
+    @media @large {
+      display: none;
     }
   }
 }

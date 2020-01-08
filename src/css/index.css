@@ -131,6 +131,7 @@ html {
 }
 .app {
   width: 100%;
+  align-content: flex-start;
 }
 .home-page {
   display: flex;

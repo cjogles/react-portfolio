@@ -4,13 +4,13 @@ import MUIDataTable from "mui-datatables";
 const columns = ["SKILLS", "DESCRIPTION"];
 
 const data = [
- ["HTML/CSS", "Preprocessing w/ Less, Styling w/ Flexbox and Material UI/Semantic UI, Mobile Responsive Design, SEO mindfulness"],
+ ["HTML/CSS", "Preprocessing w/ LESS, Styling w/ Flexbox, Box Model and Material UI/Semantic UI, Emotion. Focused on Mobile Responsive Design and SEO mindful. Understands CSS Specificity and Inheritance and how to leverage them to achieve client design specs"],
  ["JavaScript", "OOP, Closures, Higher Order Functions, Variable Scope & Hoisting, TDD"],
  ["React", "Function Components w/ Hooks, Class Components w/ Life Cycle Methods, Higher Order Components, Context API"],
  ["Redux", "Action, Action Creators, Reducers, Store, Async API Calls with Axios"],
- ["Back End", "NodeJS, Express, Knex, Sqlite3, SQL, DRY code is best, opinionated but logical folder and file structure for server creation and API creation, CRUD"],
- ["Version Control", "Detailed Commit History for group projects, logical planning of software architecutre fit for solution to specefic problems, GIT, Github, merge conflicts resolved"],
- ["People Skills", "Bachelors of Science in Psychology, customer service experience, mental health work/casework work experience"],
+ ["Back End", "NodeJS, Express, Knex, Sqlite3, SQL, DRY code philosophy, uses opinionated but logical directory and file structure for server and API creation, understands CRUD"],
+ ["Version Control", "Detailed Commit History for group projects, logical planning of software architecutre fit for solution to specefic problems, GIT, Github, merge conflict resolution"],
+ ["People Skills", "Bachelors of Science in Psychology, mentoring experience in web development as a team lead at Lambda School, customer service experience, mental health work and child welfare casework experience"],
 ];
 
 const options = {

@@ -15,11 +15,11 @@ const Project1 = () => {
           <div className="proj1Text">
             <h2>Block Club Calendar</h2>
             <p>
-              Worked for a Detroit, MI non-profit as a junior react dev to build
-              a calendar event web platform. Assisted team in creating functional components,
-              dynamic html elements rendered to the DOM via JS array methods,
-              and implemented third party libraries to create UI like a date picker and login 
-              forms.
+              Worked for a Detroit, MI non-profit to build
+              a calendar event web platform. My work included creating react function components,
+              using JS array methods to dynamically render semantic html elements to the DOM,
+              and implementing third party libraries to create UI like a date picker and a login 
+              form.
             </p>
             <div className="proj1Buttons">
               <div className="proj1Butt">

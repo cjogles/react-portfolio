@@ -21,7 +21,7 @@ const Project2 = () => {
               startup company. I used LESS preprocessor to style the website
               responsively and consistently according to my clients specifications.
               Worked 1 on 1 with client to make changes to website via zoom and phone 
-              calls. Implemented front end UI via react components.
+              calls. Implemented UI with react and react router.
             </p>
             <div className="proj2Buttons">
               <div className="proj2Butt">

@@ -18,9 +18,10 @@ const Project2 = () => {
             <h2>Lindy's Local Pest Control</h2>
             <p>
               Built the marketing website for my brother in laws pest control 
-              website. Used Less preprocessor, react routing, I-frames, and 
-               learned the basics of building a front facing front end project for a 
-               real world business. 
+              startup company. I used LESS preprocessor to style the website
+              responsively and consistently according to my clients specifications.
+              Worked 1 on 1 with client to make changes to website via zoom and phone 
+              calls. Implemented front end UI via react components.
             </p>
             <div className="proj2Buttons">
               <div className="proj2Butt">
@@ -31,7 +32,7 @@ const Project2 = () => {
                 </div>
                 <div>
                   <Button style={butt} variant="contained" color="primary" href="https://github.com/cjogles/Lindys-Local-Pest" target="_blank">
-                    View Code
+                    View README
                   </Button>
                 </div>
               </div>

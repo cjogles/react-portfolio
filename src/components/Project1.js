@@ -15,11 +15,11 @@ const Project1 = () => {
           <div className="proj1Text">
             <h2>Block Club Calendar</h2>
             <p>
-              Worked for a Detroit, MI non-profit to build
-              a calendar event web platform. My work included creating react function components,
-              using JS array methods to dynamically render semantic html elements to the DOM,
+              Worked for a Detroit, MI, non-profit to build
+              a calendar event platform. My work included creating react function components,
+              using JS array methods to dynamically render semantic HTML elements to the DOM,
               and implementing third party libraries to create UI like a date picker and a login 
-              form.
+              form. I worked along side four other developers on this project.
             </p>
             <div className="proj1Buttons">
               <div className="proj1Butt">
@@ -29,8 +29,8 @@ const Project1 = () => {
                   </Button>
                 </div>
                 <div>
-                  <Button variant="contained" color="primary" href="https://github.com/Build-Week-Block-Club-Calendar/block-club-calendar-FE" target="_blank">
-                    View Code
+                  <Button variant="contained" color="primary" href="https://github.com/Build-Week-Block-Club-Calendar/block-club-calendar-FE/blob/master/README.md" target="_blank">
+                    View README
                   </Button>
                 </div>
               </div>

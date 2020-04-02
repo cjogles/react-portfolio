@@ -129,6 +129,8 @@ export default class Project3 extends React.Component {
           arrows
           clickToChange
           infinite
+          autoPlay={5000}
+          animationSpeed={1500}
         />
       </div>
     );

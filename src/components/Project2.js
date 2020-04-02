@@ -38,7 +38,7 @@ const Project2 = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="proj2img">
             <a href="https://lindyslocalpest.com" rel="noopener noreferrer" target="_blank">
               <img 
               src="images/pest.png" 

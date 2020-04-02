@@ -194,7 +194,7 @@ html {
   margin-bottom: 0.5rem;
   margin-top: 1rem;
 }
-.firstProject1 a img {
+.firstProject1 a img.imgproj1 {
   margin: auto;
   width: 48%;
   width: 30rem;
@@ -202,19 +202,19 @@ html {
   transition: 0.3s;
 }
 @media (max-width:800px) {
-  .firstProject1 a img {
+  .firstProject1 a img.imgproj1 {
     display: none;
     flex-wrap: wrap;
   }
 }
 @media (min-width:801px) {
-  .firstProject1 a img {
+  .firstProject1 a img.imgproj1 {
     width: 20rem;
     margin: auto;
   }
 }
 @media (min-width:1200px) {
-  .firstProject1 a img {
+  .firstProject1 a img.imgproj1 {
     width: 30rem;
   }
 }
@@ -372,6 +372,149 @@ html {
 .firstProject2 div img:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+div.project3 {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+div.project3 p.project3head {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+div.project3 .carousel div.firstProject {
+  border: 5px solid #0033cc;
+  border-radius: 5px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+@media (max-width:540px) {
+  div.project3 .carousel div.firstProject {
+    width: 12rem;
+  }
+}
+@media (max-width:450px) {
+  div.project3 .carousel div.firstProject {
+    width: 7rem;
+  }
+}
+div.project3 .carousel div.firstProject div.buttons {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.project3 .carousel div.firstProject div.buttons div {
+  margin: 1rem;
+}
+div.project3 .carousel div.firstProject img.imgproj3 {
+  width: 40rem;
+}
+@media (max-width:900px) {
+  div.project3 .carousel div.firstProject img.imgproj3 {
+    width: 35rem;
+  }
+}
+@media (max-width:800px) {
+  div.project3 .carousel div.firstProject img.imgproj3 {
+    width: 30rem;
+  }
+}
+@media (max-width:700px) {
+  div.project3 .carousel div.firstProject img.imgproj3 {
+    width: 20rem;
+  }
+}
+@media (max-width:540px) {
+  div.project3 .carousel div.firstProject img.imgproj3 {
+    width: 100%;
+    height: 50%;
+  }
+}
+div.project3 .carousel div.firstProject img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+div.project3 .carousel div.firstProject p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
 .skillzHead {
   width: 100%;
+}
+div.testimony {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+div.testimony p.testimonyhead {
+  text-align: center;
+  font-size: 2rem;
+}
+div.testimony .carousel1 {
+  height: 40rem;
+}
+@media (max-width:500px) {
+  div.testimony .carousel1 {
+    height: 50rem;
+  }
+}
+div.testimony .carousel1 div.firstProject1 {
+  border: 5px solid #0033cc;
+  border-radius: 5px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 20%;
+}
+@media (max-width:800px) {
+  div.testimony .carousel1 div.firstProject1 {
+    margin: 5%;
+  }
+}
+@media (max-width:800px) {
+  div.testimony .carousel1 div.firstProject1 {
+    margin: 1%;
+    padding: 1rem;
+  }
+}
+div.testimony .carousel1 div.firstProject1 a {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+div.testimony .carousel1 div.firstProject1 div.buttons1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.testimony .carousel1 div.firstProject1 div.buttons1 p.testimonyPerson {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+div.testimony .carousel1 div.firstProject1 div.buttons1 p.testimonyPerson1 {
+  font-size: 1.2rem;
+}
+div.testimony .carousel1 div.firstProject1 div.buttons1 p.description {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+div.testimony .carousel1 div.firstProject1 img.mine {
+  width: 15rem;
+}
+@media (max-width:1000px) {
+  div.testimony .carousel1 div.firstProject1 img.mine {
+    width: 12rem;
+  }
+}
+@media (max-width:800px) {
+  div.testimony .carousel1 div.firstProject1 img.mine {
+    width: 100%;
+  }
+}
+div.testimony .carousel1 div.firstProject1 img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }

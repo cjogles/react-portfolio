@@ -1,0 +1,69 @@
+div.testimony {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    p.testimonyhead {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .carousel1 {
+        height: 40rem;
+        @media @small {
+            height: 50rem;
+        }
+        // border: solid red;
+        // FIRST PROJECT
+        div.firstProject1 {
+            border: 5px solid #0033cc;
+            border-radius: 5px;
+            padding: 3rem;
+            display:flex;
+            flex-direction: column;
+            margin: 20%;
+            @media @smaller {
+                margin:5%;
+            }
+            @media @smaller {
+                margin: 1%;
+                padding: 1rem;
+            }
+            a {
+                width: 100%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+            div.buttons1 {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                p.testimonyPerson {
+                    font-size: 1.5rem;
+                    margin-top: .5rem;
+                }
+                p.testimonyPerson1 {
+                    font-size:1.2rem;
+                }
+                p.description {
+                    font-size: 1rem;
+                    margin-top: .5rem;
+                }
+            }
+            img.mine {
+                width: 15rem;
+                @media @testimony {
+                    width: 12rem;
+                }
+                @media @smaller {
+                    width: 100%;
+                }
+            }
+            img:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+        }
+        // END OF FIRST PROJECT
+
+    }
+}

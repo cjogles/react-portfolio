@@ -26,12 +26,12 @@ const Project2 = () => {
             <div className="proj2Buttons">
               <div className="proj2Butt">
                 <div>
-                  <Button style={butt} variant="contained" color="primary" href="https://lindyslocalpest.com" target="_blank">
+                  <Button style={butt} variant="contained" color="primary" href="https://lindyslocalpest.com" rel="noopener noreferrer" target="_blank">
                   View Website
                   </Button>
                 </div>
                 <div>
-                  <Button style={butt} variant="contained" color="primary" href="https://github.com/cjogles/Lindys-Local-Pest" target="_blank">
+                  <Button style={butt} variant="contained" color="primary" href="https://github.com/cjogles/Lindys-Local-Pest" rel="noopener noreferrer" target="_blank">
                     View README
                   </Button>
                 </div>
@@ -39,7 +39,7 @@ const Project2 = () => {
             </div>
           </div>
           <div>
-            <a href="https://lindyslocalpest.com" target="_blank">
+            <a href="https://lindyslocalpest.com" rel="noopener noreferrer" target="_blank">
               <img 
               src="images/pest.png" 
               alt="screenshot of lindys local pest control website home page" 

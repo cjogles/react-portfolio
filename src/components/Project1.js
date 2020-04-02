@@ -6,8 +6,9 @@ const Project1 = () => {
     return (
       <>
         <div id="firstProject" className="firstProject1">
-          <a href="https://blockclubcalendar.now.sh" target="_blank">
+          <a href="https://blockclubcalendar.now.sh" rel="noopener noreferrer" target="_blank">
             <img 
+            className="imgproj1"
             src="images/block-club.jpg" 
             alt="screenshot of block-club calendar website home page" 
             />
@@ -24,19 +25,19 @@ const Project1 = () => {
             <div className="proj1Buttons">
               <div className="proj1Butt">
                 <div>
-                  <Button variant="contained" color="primary" href="https://blockclubcalendar.now.sh" target="_blank">
+                  <Button variant="contained" color="primary" href="https://blockclubcalendar.now.sh" rel="noopener noreferrer" target="_blank">
                   View Website
                   </Button>
                 </div>
                 <div>
-                  <Button variant="contained" color="primary" href="https://github.com/Build-Week-Block-Club-Calendar/block-club-calendar-FE/blob/master/README.md" target="_blank">
+                  <Button variant="contained" color="primary" href="https://github.com/Build-Week-Block-Club-Calendar/block-club-calendar-FE/blob/master/README.md" rel="noopener noreferrer" target="_blank">
                     View README
                   </Button>
                 </div>
               </div>
             </div>
           </div>
-          <img className="hiddenImg"
+          <img className="hiddenImg imgproj1"
             src="images/block-club.jpg" 
             alt="screenshot of block-club calendar website home page" 
             />

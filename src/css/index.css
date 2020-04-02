@@ -438,88 +438,87 @@ div.project3 .carousel div.firstProject p {
 .skillzHead {
   width: 100%;
 }
-div.testimony {
-  margin-top: 6rem;
+div.project3 {
+  margin-top: 3rem;
   margin-bottom: 4rem;
 }
-div.testimony p.testimonyhead {
+div.project3 p.project3head {
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
-div.testimony .carousel1 {
-  height: 100vh;
-}
-div.testimony .carousel1 div.firstProject1 {
+div.project3 .carousel div.firstProject {
   border: 5px solid #0033cc;
   border-radius: 5px;
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  margin: 20%;
+  margin: 0.5rem;
 }
-@media (max-width:800px) {
-  div.testimony .carousel1 div.firstProject1 {
-    margin: 5%;
+@media (max-width:540px) {
+  div.project3 .carousel div.firstProject {
+    width: 12rem;
   }
 }
-@media (max-width:800px) {
-  div.testimony .carousel1 div.firstProject1 {
-    margin: 1%;
-    padding: 1rem;
+@media (max-width:450px) {
+  div.project3 .carousel div.firstProject {
+    width: 7rem;
   }
 }
-div.testimony .carousel1 div.firstProject1 a {
-  width: 100%;
+div.project3 .carousel div.firstProject a {
   text-align: center;
-  display: flex;
-  justify-content: center;
 }
-div.testimony .carousel1 div.firstProject1 div.buttons1 {
+div.project3 .carousel div.firstProject a img.testimonial {
+  border: solid #0033cc;
+  width: 20rem;
+  margin: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 2rem;
+}
+@media (max-width:800px) {
+  div.project3 .carousel div.firstProject a img.testimonial {
+    width: 15rem;
+    margin: 2rem;
+  }
+}
+@media (max-width:540px) {
+  div.project3 .carousel div.firstProject a img.testimonial {
+    width: 10rem;
+    margin: 1rem;
+  }
+}
+@media (max-width:450px) {
+  div.project3 .carousel div.firstProject a img.testimonial {
+    width: 6rem;
+    margin: 0rem;
+  }
+}
+div.project3 .carousel div.firstProject a img.testimonial :hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+div.project3 .carousel div.firstProject div.buttons {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-div.testimony .carousel1 div.firstProject1 div.buttons1 p.testimonyPerson {
+div.project3 .carousel div.firstProject div.buttons div.testdiv {
+  margin: 1rem;
+}
+div.project3 .carousel div.firstProject div.buttons p.testp {
   font-size: 1.5rem;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
-div.testimony .carousel1 div.firstProject1 div.buttons1 p.testimonyPerson1 {
-  font-size: 1.2rem;
-}
-@media (max-width:450px) {
-  div.testimony .carousel1 div.firstProject1 div.buttons1 p.testimonyPerson1 {
+@media (max-width:540px) {
+  div.project3 .carousel div.firstProject div.buttons p.testp {
     font-size: 1rem;
   }
 }
-div.testimony .carousel1 div.firstProject1 div.buttons1 p.description {
-  font-size: 1rem;
-  margin-top: 0.5rem;
-}
 @media (max-width:450px) {
-  div.testimony .carousel1 div.firstProject1 div.buttons1 p.description {
-    font-size: 0.8rem;
+  div.project3 .carousel div.firstProject div.buttons p.testp {
+    margin-top: 1rem;
+    font-size: 0.7rem;
   }
-}
-div.testimony .carousel1 div.firstProject1 img.mine {
-  width: 15rem;
-}
-@media (max-width:1000px) {
-  div.testimony .carousel1 div.firstProject1 img.mine {
-    width: 12rem;
-  }
-}
-@media (max-width:800px) {
-  div.testimony .carousel1 div.firstProject1 img.mine {
-    width: 10rem;
-  }
-}
-@media (max-width:450px) {
-  div.testimony .carousel1 div.firstProject1 img.mine {
-    width: 6rem;
-  }
-}
-div.testimony .carousel1 div.firstProject1 img:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }

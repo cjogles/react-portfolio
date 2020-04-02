@@ -34,6 +34,7 @@ export default class Testimonial extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
+                <p>Amber Sorensen - Software Engineer at MMSG in SLC</p>
                 <img
                   className="testimonial"
                   src="/images/amber.png"
@@ -61,6 +62,7 @@ export default class Testimonial extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
+                <p>Ira Sanchez - Team Lead @ Lambda School</p>
                 <img
                   className="testimonial"
                   src="/images/ira.png"

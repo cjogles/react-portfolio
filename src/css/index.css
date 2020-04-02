@@ -467,6 +467,22 @@ div.project3 .carousel div.firstProject {
 }
 div.project3 .carousel div.firstProject a {
   text-align: center;
+  text-decoration: none;
+}
+div.project3 .carousel div.firstProject a p {
+  text-decoration: none;
+  color: black;
+}
+@media (min-width:1200px) {
+  div.project3 .carousel div.firstProject a p {
+    font-size: 2rem;
+  }
+}
+@media (max-width:450px) {
+  div.project3 .carousel div.firstProject a p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
 }
 div.project3 .carousel div.firstProject a img.testimonial {
   border: solid #0033cc;

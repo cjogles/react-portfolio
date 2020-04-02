@@ -264,19 +264,12 @@ html {
 }
 .firstProject1 .hiddenImg {
   display: none;
-  margin-bottom: 2rem;
 }
 @media (max-width:800px) {
   .firstProject1 .hiddenImg {
     display: flex;
     margin: auto;
-    margin-bottom: 3rem;
     width: 95%;
-  }
-}
-@media (min-width:801px) {
-  .firstProject1 .hiddenImg {
-    display: none;
   }
 }
 .firstProject2 {
@@ -498,9 +491,19 @@ div.testimony .carousel1 div.firstProject1 div.buttons1 p.testimonyPerson {
 div.testimony .carousel1 div.firstProject1 div.buttons1 p.testimonyPerson1 {
   font-size: 1.2rem;
 }
+@media (max-width:450px) {
+  div.testimony .carousel1 div.firstProject1 div.buttons1 p.testimonyPerson1 {
+    font-size: 1rem;
+  }
+}
 div.testimony .carousel1 div.firstProject1 div.buttons1 p.description {
   font-size: 1rem;
   margin-top: 0.5rem;
+}
+@media (max-width:450px) {
+  div.testimony .carousel1 div.firstProject1 div.buttons1 p.description {
+    font-size: 0.8rem;
+  }
 }
 div.testimony .carousel1 div.firstProject1 img.mine {
   width: 15rem;
@@ -512,7 +515,12 @@ div.testimony .carousel1 div.firstProject1 img.mine {
 }
 @media (max-width:800px) {
   div.testimony .carousel1 div.firstProject1 img.mine {
-    width: 100%;
+    width: 10rem;
+  }
+}
+@media (max-width:450px) {
+  div.testimony .carousel1 div.firstProject1 img.mine {
+    width: 6rem;
   }
 }
 div.testimony .carousel1 div.firstProject1 img:hover {

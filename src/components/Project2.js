@@ -17,7 +17,7 @@ const Project2 = () => {
           <div className="proj2Text">
             <h2>Lindy's Local Pest Control</h2>
             <p>
-              Built the marketing website for my brother in laws pest control 
+              Built the marketing website for my brother in law's pest control 
               startup company. I used LESS preprocessor to style the website
               responsively and consistently according to my clients specifications.
               Worked 1 on 1 with client to make changes to website via zoom and phone 

@@ -22,7 +22,7 @@ const Buttons = () => {
         <Button style={buttStyle} variant="contained" color="primary" href="#firstProject">
           View Projects
         </Button>
-        <Button style={buttStyle} variant="contained" color="primary" href="/Jackson_Ogles_Resume.pdf" target="_blank">
+        <Button style={buttStyle} variant="contained" color="primary" href="/resume_jackson.pdf" target="_blank">
           View Resume
         </Button>
       </div>

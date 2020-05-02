@@ -17,11 +17,8 @@ const Project2 = () => {
           <div className="proj2Text">
             <h2>Lindy's Local Pest Control</h2>
             <p>
-              Built the marketing website for my brother in law's pest control 
-              startup company. I used LESS preprocessor to style the website
-              responsively and consistently according to my clients specifications.
-              Worked 1 on 1 with client to make changes to website via zoom and phone 
-              calls. Implemented UI with react and react router.
+              Front end marketing website for my brother in law's pest control 
+              company.
             </p>
             <div className="proj2Buttons">
               <div className="proj2Butt">
@@ -32,7 +29,7 @@ const Project2 = () => {
                 </div>
                 <div>
                   <Button style={butt} variant="contained" color="primary" href="https://github.com/cjogles/Lindys-Local-Pest" rel="noopener noreferrer" target="_blank">
-                    View README
+                    View Front End Code Base
                   </Button>
                 </div>
               </div>

@@ -29,14 +29,14 @@ export default class Project3 extends React.Component {
           slides={[
             <div className="firstProject">
               <a
-                href="https://plantpurpose.now.sh"
+                href="https://blockclubcalendar.now.sh"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <img
                   className="imgproj3"
-                  src="/images/plant.png"
-                  alt="picture of plant purpose website"
+                  src="/images/block-club.jpg"
+                  alt="picture of blockclub website"
                 />
               </a>
               <div className="buttons">
@@ -44,7 +44,7 @@ export default class Project3 extends React.Component {
                   <Button
                     variant="contained"
                     color="primary"
-                    href="https://plantpurpose.now.sh"
+                    href="https://blockclubcalendar.now.sh"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -55,25 +55,14 @@ export default class Project3 extends React.Component {
                   <Button
                     variant="contained"
                     color="primary"
-                    href="https://github.com/Plant-Purpose"
+                    href="https://github.com/Build-Week-Block-Club-Calendar/block-club-calendar-FE/blob/master/README.md"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
                     See Code
                   </Button>
                 </div>
-                <div>
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    href="https://www.youtube.com/watch?v=s5Ib7fHBSTQlist=PLTrij8iU8hRrvTLbln5H5umHasxrLZPWc"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    See Video Presentation
-                  </Button>
-                </div>
-                <p>Remember to Water Your Plants!</p>
+                <p>Event Planning Web App. Worked on team of 6 developers. Responsible for building login and register forms and a date picker.</p>
               </div>
             </div>,
             <div className="firstProject">
@@ -122,14 +111,14 @@ export default class Project3 extends React.Component {
                     See Video Presentation
                   </Button>
                 </div>
-                <p>Remember to Water Your Plants!</p>
+                <p>Full Stack Hackathon App in 24 hours. Worked with team of 6 developers. Responsible for CSS and Design.</p>
               </div>
             </div>
           ]}
           arrows
           clickToChange
           infinite
-          autoPlay={5000}
+          // autoPlay={5000}
           animationSpeed={1500}
         />
       </div>

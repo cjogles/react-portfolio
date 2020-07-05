@@ -3,6 +3,7 @@ import "../src/css/index.css";
 import NavBar from "./components/NavBar";
 import Buttons from "./components/Buttons";
 import Project1 from "./components/Project1";
+import SignLingo from "./components/SignLingo";
 import Project2 from "./components/Project2";
 import Project3 from "./components/Project3";
 import Skillz from "./components/Skillz";
@@ -24,6 +25,7 @@ function App() {
         <Buttons />
         <Project1 />
         <Project2 />
+        <SignLingo />
         <Project3 />
         <Skillz />
         <Testimonial />

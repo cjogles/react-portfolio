@@ -62,7 +62,8 @@ export default class Project3 extends React.Component {
                     See Code
                   </Button>
                 </div>
-                <p>Event Planning Web App. Worked on team of 6 developers. Responsible for building login and register forms and a date picker.</p>
+                <p>Web platform for Detroit, MI, non-profit to present community events.</p>
+                <p>Collaborated with 6 full-stack developers. Implemented login and registration features and material UI date picker.</p>
               </div>
             </div>,
             <div className="firstProject">
@@ -111,7 +112,10 @@ export default class Project3 extends React.Component {
                     See Video Presentation
                   </Button>
                 </div>
-                <p>Full Stack Hackathon App in 24 hours. Worked with team of 6 developers. Responsible for CSS and Design.</p>
+                <p>
+                  Keep track of when and how to water your plants.
+                </p>
+                <p>Full Stack Hackathon App in 24 hours. Worked with team of 6 developers. Implemented CSS and Design.</p>
               </div>
             </div>
           ]}

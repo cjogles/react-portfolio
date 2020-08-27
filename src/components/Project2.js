@@ -17,8 +17,10 @@ const Project2 = () => {
           <div className="proj2Text">
             <h2>Lindy's Local Pest Control</h2>
             <p>
-              Front end marketing website for my brother in law's pest control 
-              company.
+              Built and deployed marketing page for local pest control business.
+            </p>
+            <p>
+              Utilized HTML, CSS, Javascript, React, and LESS.
             </p>
             <div className="proj2Buttons">
               <div className="proj2Butt">

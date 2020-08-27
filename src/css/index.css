@@ -133,6 +133,23 @@ html {
   width: 100%;
   align-content: flex-start;
 }
+.navbar {
+  display: flex;
+  color: white;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding-left: 2rem;
+}
+.navbar a:hover {
+  color: yellow;
+}
+@media (max-width:540px) {
+  .hiddenA {
+    display: none;
+  }
+}
 .home-page {
   display: flex;
 }

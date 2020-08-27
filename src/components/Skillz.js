@@ -25,7 +25,7 @@ const options = {
 const Skillz = () => {
   return (
     <>
-      <div className="skillzHead">
+      <div className="skillzHead" id ="skillsid">
       <MUIDataTable
         title={"Skills Data Table"}
         data={data}

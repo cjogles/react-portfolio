@@ -15,7 +15,10 @@ const Project1 = () => {
       <div className="proj2Text">
         <h2>Partydox!</h2>
         <p>
-          Full Stack Web App built with Postgres, Express, React, and Node.js
+          Create and collaborate on trips with your friends!
+        </p>
+        <p>
+          Utilized React, Node, PostgreSQL, and Express.
         </p>
         <div className="proj2Buttons">
           <div className="proj2Butt">

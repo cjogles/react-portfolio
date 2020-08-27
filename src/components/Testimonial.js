@@ -15,7 +15,7 @@ export default class Testimonial extends React.Component {
 
   render() {
     return (
-      <div className="project3">
+      <div className="project3" id="carouselid">
         <p className="project3head">Testimonials 😊</p>
         {/* <input
         type="number"
@@ -23,6 +23,7 @@ export default class Testimonial extends React.Component {
         onChange={e => this.onChange(parseInt(e.target.value || 0))}
       /> */}
         <Carousel
+          
           className="carousel"
           value={this.state.value}
           onChange={this.onChange}
